@@ -1,16 +1,14 @@
 public class devoir02 {
     public static void main(String[] args) {
         // Déclaration des constantes
-        final int CAPACITE_RESERVOIR_A = 3;
+        final int CAPACITE_RESERVOIR_A = 2;
         final int CAPACITE_RESERVOIR_B = 5;
 
         // Déclaration des variables pour les réservoirs, initialement vides
         int reservoirA = 0;
         int reservoirB = 0;
-
-        // Génération d'une valeur aléatoire pour le remplissage
-      
-        int remplissage=2;
+        //declaration de la valeur du remplissage
+        int remplissage=4;
 
         // Affichage du nombre de litres à remplir
         System.out.println("Il y a " + remplissage + " litres à remplir.");
@@ -28,7 +26,7 @@ public class devoir02 {
                 reservoirB++;
             }
 
-            // Affichage du niveau des réservoirs après chaque itération
+            // Affichage du niveau des réservoirs après chaque étapes
             System.out.println("Le réservoir A : " + reservoirA + ", le réservoir B : " + reservoirB);
         }
 
