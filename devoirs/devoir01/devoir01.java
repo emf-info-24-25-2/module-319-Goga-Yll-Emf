@@ -1,18 +1,24 @@
 public class devoir01 {
-    public static void main(String[] args) {
-        int monAge = 20;
-        
-        //Relisez bien la donnée, int n'est pas tout à fait
-        //le bon choix pour estMajeur. Il faut une variable 
-        //qui permet de stocker si oui ou non la personne est majeure.
-        //changez ceci et corrigez la suite de l'exercice
-        int estMajeur = 18;
-        
+    public static void main(String[] args) {//Devoir corrigé
 
-        System.out.println("je m'appelle Yll Goga");
-        if (monAge >= estMajeur){
+        int monAge = 15;
+
+        boolean estMajeur;
+
+        if (monAge > 20) {
+            estMajeur = true;
+        } else {
+            estMajeur = false;
+        }
+
+        System.out.println("Je m'appelle Yll Goga");
+
+        System.out.println("Mon âge est de : " + monAge + " ans");
+
+        if (estMajeur) {
             System.out.println("Je suis majeur");
-    }   else{System.out.println("Je ne suis pas encore majeur");
-    }
+        } else {
+            System.out.println("Je ne suis pas encore majeur");
+        }
     }
 }
