@@ -1,9 +1,9 @@
 public class devoir03 {
     public static void main(String[] args) {
         // On définit la date (par exemple le 24 septembre 2024)
-        int jour = 24;
-        int mois = 9;
-        int annee = 2024;
+        int jour = 29;
+        int mois = 2;
+        int annee = 2023;
         // Vérifie si l'année est entre 0 et 9999 (comme demandé)
         if (annee < 0 || annee > 9999) {
             System.out.println("Yo, l'année " + annee + " est pas valide !");
