@@ -1,6 +1,6 @@
 public class ExerciceCondition4 {
     public static void main(String[] args) {
-        int temperature = 20;
+        int temperature = -10;
 
         if (temperature < -10) {
             System.out.println("Il fait très froid");
