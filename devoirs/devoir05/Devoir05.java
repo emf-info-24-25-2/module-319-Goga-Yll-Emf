@@ -25,6 +25,7 @@ public class Devoir05 {
             } else if (proposition > nombreSecret) {
                 System.out.println("Trop grand !");
             } else {
+                //RIF: vous pourriez aussi mettre en combien d'essais le joueur a trouvé
                 System.out.println("Bravo, trouvé !");
                 trouve = true;  //Le nombre est trouvé, sortir de la boucle
             }
