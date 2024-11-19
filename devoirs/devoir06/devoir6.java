@@ -38,6 +38,8 @@ public class devoir6 {
 
     // Méthode pour rechercher une valeur dans le tableau
     public static int rechercheValeur(int[] tableau, int valeurRecherchee) {
+
+        //RIF: attention la convention EMF demande un seul "return" par méthode
         for (int i = 0; i < tableau.length; i++) {
             if (tableau[i] == valeurRecherchee) {
                 return i; // Retourner l'index de la valeur trouvée
@@ -66,6 +68,7 @@ public class devoir6 {
         // Recherche de la valeur spécifiée et affichage de la position
         int position = rechercheValeur(tableau, VALEUR_RECHERCHEE);
 
+        // RIF: ici le if/else ne modifie par ce qui sera affiché!
         if (position != -1) {
             System.out.println(
                     "Le nombre [" + VALEUR_RECHERCHEE + "] figure à la position [" + position + "] du tableau");
